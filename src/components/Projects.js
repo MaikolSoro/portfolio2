@@ -44,7 +44,7 @@ function Project({ title, desc, tech, colorMode, image_url }) {
         rounded="md"
       >
         <Flex w="100%" h="100%" alignItems="center">
-          <AspectRatio ratio={1.85 / 1} w="100%" borderBottomWidth="1px" paddingTop={2}>
+          <AspectRatio ratio={1.85 / 1} w="100%" borderBottomWidth="1px">
             <Image
               rounded="md"
               src={image_url ? image_url : 'https://bit.ly/2k1H1t6'}
@@ -53,7 +53,7 @@ function Project({ title, desc, tech, colorMode, image_url }) {
             />
           </AspectRatio>
         </Flex>
-        <Box w="100%" paddingTop={2}>
+        <Box w="100%">
           <Stack mt={2} pl={[0, 4, 4, 4]}>
             <Text
               fontSize="lg"
