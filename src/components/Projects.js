@@ -90,19 +90,23 @@ const Projects = () => {
   const projects = [
     {
       title: 'Food Recipes App',
-      desc: `It is a Food Recipes app, where we will be able to browse recipes for different types of meals and diets. The design of this application is in xml.`,
+      desc: `It is a Food Recipes app, where we will be able to browse recipes for different 
+          types of meals and diets. 
+          The design of this application is in xml.`,
       tech: 'Android, Kotlin, Xml, Retrofit',
       image_url: food_img
     },
     {
       title: 'Task App',
-      desc: `Build a To-Do App using Modern Declarative UI Toolkit called Jetpack Compose to Accelerate your UI and App development..`,
+      desc: `Build a To-Do App using Modern Declarative UI Toolkit called Jetpack Compose 
+          to Accelerate your UI and App development..`,
       tech: 'Android, Kotlin, JetpackCompose',
       image_url: task_img
     },
     {
       title: 'NoteApp',
-      desc: `A sick note application in Jetpack Compose with the popular clean architecture approach.`,
+      desc: `A sick note application in Jetpack Compose with the popular 
+          clean architecture approach.`,
       tech: 'Android, Kotlin, JetpackCompose, Testing',
       image_url: note_img
     },
@@ -114,19 +118,27 @@ const Projects = () => {
     },
     {
       title: 'Chat App',
-      desc: `With Stream Chat SDK you will be able to create a polished in-app messaging experience with typing indicators, read state, attachments, reactions, user presence, and threads. With Stream Chat you will be able to save lot's of time implementing the Chat in your app..`,
+      desc: `With Stream Chat SDK you will be able to create a polished in-app messaging 
+          experience with typing indicators, read state, attachments, reactions, user presence, 
+          and threads. With Stream Chat you will be able to save lot's of time implementing the Chat in your app..`,
       tech: 'Android, Kotlin, Stream SDK, Xml',
       image_url: chat_img
     },
     {
       title: 'Tracker App',
-      desc: ` Distance Tracker, and as the name suggests, this application will be able to track the location of our users and keep track of the distance the user travels. The application will use Foreground Service and will track the users location even from the background when we kill our application. Simply put, you will be able to track how many kilometers you have traveled and how long it took you.`,
+      desc: ` Distance Tracker, and as the name suggests, 
+          this application will be able to track the location of our users and 
+          keep track of the distance the user travels. 
+          The application will use Foreground Service and will track the users location even 
+          from the background when we kill our application. 
+          Simply put, you will be able to track how many kilometers you have traveled and how long it took you.`,
       tech: 'Android, Kotlin,Google Maps SDK, Xml',
       image_url: tracker_img
     },
     {
       title: 'IMC',
-      desc: `With this free BMI Calculator, you can calculate and evaluate your BMI (body mass index) by simply entering your age, gender, height and weight..`,
+      desc: `With this free BMI Calculator, you can calculate and evaluate your BMI (body mass index) 
+          by simply entering your age, gender, height and weight..`,
       tech: 'Android, kotlin, xml',
       image_url: imc_img
     },
