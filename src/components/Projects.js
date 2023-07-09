@@ -53,7 +53,7 @@ function Project({ title, desc, tech, colorMode, image_url }) {
             />
           </AspectRatio>
         </Flex>
-        <Box w="100%">
+        <Box w="100%" marginBottom={2}>
           <Stack mt={2} pl={[0, 4, 4, 4]}>
             <Text
               fontSize="lg"
@@ -100,20 +100,20 @@ const Projects = () => {
       title: 'Task App',
       desc: `Build a To-Do App using Modern Declarative UI Toolkit called Jetpack Compose 
           to Accelerate your UI and App development..`,
-      tech: 'Android, Kotlin, JetpackCompose',
+      tech: 'Android, Kotlin,JetpackCompose',
       image_url: task_img
     },
     {
       title: 'NoteApp',
       desc: `A sick note application in Jetpack Compose with the popular 
           clean architecture approach.`,
-      tech: 'Android, Kotlin, JetpackCompose',
+      tech: 'Android, Kotlin,JetpackCompose',
       image_url: note_img
     },
     {
       title: 'Book App',
       desc: `Book application using the power and simplicity of Android Jetpack Compose UI Toolkit`,
-      tech: 'Android, kotlin, JeckPackCompose',
+      tech: 'Android, kotlin,JeckPackCompose',
       image_url: book_img
     },
     {
