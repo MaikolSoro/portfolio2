@@ -5,7 +5,7 @@ import { ChakraProvider, ColorModeProvider, CSSReset } from '@chakra-ui/react';
 import customTheme from './theme/theme';
 import 'focus-visible/dist/focus-visible';
 
-const breakpoints = ['480px', '768px', '992px', '1440px'];
+const breakpoints = ['320px', '768px', '1024px', '1440px'];
 breakpoints.sm = breakpoints[0];
 breakpoints.md = breakpoints[1];
 breakpoints.lg = breakpoints[2];

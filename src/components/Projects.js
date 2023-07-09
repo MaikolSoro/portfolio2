@@ -107,7 +107,7 @@ const Projects = () => {
       title: 'NoteApp',
       desc: `A sick note application in Jetpack Compose with the popular 
           clean architecture approach.`,
-      tech: 'Android, Kotlin, JetpackCompose, Testing',
+      tech: 'Android, Kotlin, JetpackCompose',
       image_url: note_img
     },
     {
